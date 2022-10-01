@@ -1,0 +1,55 @@
+/* div{
+    background-color: darkgreen;
+    width: 700px;
+    height: 400px;
+  overflow: auto;
+  white-space: nowrap;
+  /* overflow-y: scroll; */
+  /* overflow-y: visible; */
+  /* overflow-y: hidden; */
+
+
+/* h1{
+    color: green;
+} */
+  /* div{
+    height: 50px;
+    width: 100px; 
+  } */
+.common{
+  height: 200px;
+    width: 300px;
+ overflow-x: auto;
+
+  
+ 
+}
+
+.first{
+    background-color: blue;
+    /* height: 450px;
+    width: 100px; */
+}
+.second{
+    background-color: aliceblue;
+    /* height: 450px;
+    width: 100px; */
+}
+.third{
+    background-color: bisque;
+    /* height: 450px;
+    width: 100px; */
+ 
+
+}
+.fourth{
+    background-color: aqua;
+    /* height: 450px;
+    width: 100px; */
+
+}
+.fifth{
+    background-color: brown;
+    /* height: 450px;
+    width: 100px; */
+}

@@ -1,0 +1,15 @@
+.parent{
+    height: 1300px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    width: 30%;
+    height: 400px;
+    background-color: blue;
+    margin: 5px;
+}

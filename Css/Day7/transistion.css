@@ -1,0 +1,17 @@
+.first{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  background-color: purple;
+  transition-duration: 4s;
+  transition-delay: 3s;
+  transition-property: width;
+  /* transition-delay: 3s; */
+  /* transition-property: background-color; */
+
+
+/* }.first:hover{
+    width: 600px;
+    height: 200px;
+    background-color: crimson;
+} */

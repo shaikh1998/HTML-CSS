@@ -1,0 +1,40 @@
+.parent{
+    background-color: rgb(216, 12, 46);
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    border: 3px dotted red;
+   
+}
+.insta{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.in{
+    text-align: center;
+    font-size: 50px;
+}
+.para{
+    font-size: 20px;
+    text-indent: 20px;
+    position: relative;
+   left: 5px;  
+}
+.btn{
+    background-color: white;
+    color: red;
+    border-radius: 17px;
+    position: relative;
+    left:40px;
+    bottom: 10px;
+    padding: 14px;
+    font-size: medium;
+    border: 2px solid brown;
+    width: 300px;
+    cursor: all-scroll;
+    
+    
+}

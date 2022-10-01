@@ -1,0 +1,19 @@
+a{
+   text-decoration: none;
+}
+.one{
+    color: green;
+}
+.two:visited{
+    color: blueviolet;
+}
+.three:hover{
+    color: coral;
+    background-color: blue;
+}
+.four:active{
+    color: red;
+}
+.three:visited{
+    color: blueviolet;
+}

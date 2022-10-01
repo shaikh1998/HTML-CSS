@@ -1,0 +1,35 @@
+.parent1{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+.child1{
+    font-weight: bolder;
+}
+.child2{
+    font-weight: lighter;
+}
+
+#parent2{
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+
+}
+#bacha1{
+    font-weight: bolder;
+}
+#bacha2{
+    font-weight: lighter;
+}
+nav{
+    background-color: blueviolet;
+    height: 50px;
+}
+a{
+    background-color: black;
+}
+h1{
+    background-color: red;
+}
+

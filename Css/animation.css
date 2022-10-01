@@ -1,0 +1,82 @@
+.dummy{
+    background-color: cyan;
+    height: 200px;
+    width: 200px;
+    animation-name: divsanimation;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 2;
+}
+@keyframes divsanimation{
+    0%{
+        background-color: cyan;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color: green;
+    }
+    60%{
+        background-color: brown;
+    }
+    80%{
+        background-color: black;
+    }
+    100%{
+        background-color: blue;
+    }
+    /* from{
+        background-color: cyan;
+    }
+    to{
+        background-color: darkgreen;
+    } */
+}
+.parent{
+    height: 600px;
+    max-width: 600px;
+    background-color: slategray;
+    position: relative;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: sample;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-direction:normal;
+    /* animation-fill-mode: backwards; */
+}
+@keyframes sample{
+  25%{
+    top:250px;
+    left: 500px;
+    background-color: red;
+    transform: rotate(45deg);
+  }
+  50%{
+    top: 500px;
+    left: 250px;
+    background-color: blue;
+    transform: rotate(90deg);
+  }
+  75%{
+    top:250px;
+    left: 0px;
+    background-color: burlywood;
+    transform: rotate(180deg);
+  }
+  100%{
+    top: 250px;
+    left: 0px;
+    background-color: purple;
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 12;
+}
+.parent{
+    background-color: red;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    border: 2px dotted green;
+    margin: 5px;
+    cursor: pointer;
+}
+.blankDiv{
+    background-color: black;
+    height: 40%;
+    box-shadow: 3px 3px 2px black;
+}
+
+.srk{
+    position: relative;
+   bottom: 30%;
+   left: 27%;
+}
+.NAME{
+   color: aqua;
+    text-align: center;
+    font-size: 20px;
+    height: 20%;
+    
+    
+}
+h1{
+    
+    text-shadow: 5px 5px 4px rgb(231, 103, 103);
+}
+.TITTLE{
+    color: purple;
+    text-align: center;
+    font-size: 25px;
+
+}
+.DISC{
+    color: lavender;
+    text-indent: 50px;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+.insta{
+    position: relative;
+    bottom: 29px;
+    left: 130px;
+    padding: 10px;
+}
+.twitter{
+    position: relative;
+    bottom: 29px;
+    left: 130px;
+    padding: 10px;
+}
+.face{
+    position: relative;
+    bottom: 40px;
+    left: 120px;
+    
+     
+}
+.btn{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.inp{
+    background-color: aqua;
+    position: relative;
+    bottom: 20px;
+}

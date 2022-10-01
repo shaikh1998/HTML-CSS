@@ -1,0 +1,51 @@
+.parent{
+    width: 600px;
+    height: 800px;
+    background-color: slateblue;
+    margin: 20px;
+}
+.third{
+    background-color: brown;
+}
+.one{
+    width: 200px;
+    height: 350px;
+    background-color: red;
+}
+.two{
+    width: 400px;
+    height: 350px;
+    background-color: green;
+     position: relative;
+    top: 100px;
+    left: 100px; 
+}
+ .three{
+    width: 600px;
+    height: 350px;
+    background-color: blue;
+ }  
+.parent{
+    width: 600px;
+    height: 800px;
+    background-color: red;
+    margin: 50px;
+}
+.second div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.one{
+    background-color: greenyellow;
+    position: absolute;
+    left: 10px;
+}
+.two{
+    background-color: black;
+    position: relative;
+    left: 100px;
+}
+.three{
+    background-color: aqua;
+}

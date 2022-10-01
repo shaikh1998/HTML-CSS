@@ -1,0 +1,61 @@
+div{
+   background-color: red;
+   /* height: 200px;
+   width:200px; */
+   /* padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 50px;
+   padding-bottom: 50px; */
+   padding: 50px;
+   display: inline-block;
+   border-bottom: 5px solid black;
+   border-top: 10px dashed red;
+   border-left: 5px double blueviolet;
+   border-right: 7px groove brown;
+   border: 20px groove aquamarine;
+   margin-top: 50px;
+   margin-left: 100px;
+   margin-bottom: 50px;
+   margin-right: 50px;
+}
+div{
+   background-color: red;
+   height: 50px;
+   width: 50px;
+   display: inline-block;
+   padding: 50px;
+   border: 5px groove black;
+   margin: 50px;
+   color: blanchedalmond;
+   font-style: italic;
+   font-weight: bolder;
+   font-size: 20px;
+   /* text-decoration-line: line-through;
+   text-decoration-color: black;
+   text-decoration-style: dotted; */
+   text-decoration: line-through double green; 
+}
+a{
+   text-decoration: none;
+}
+#btn{
+   padding: 15px 20px;
+   border: 5px solid black;
+   margin: 15px;
+   font-size: 30px;
+   background-color: teal;
+}
+span{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 50px;
+   font-weight: bolder;
+   font-style: italic;
+   text-shadow: 3px 3px 5px grey,-3px -3px 2px green;
+   /* text-decoration-line: line-through; */
+   /* text-decoration-color: burlywood; */
+   /* text-decoration-style: wavy; */
+   text-decoration: underline gainsboro;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   word-spacing: 50px;
+}

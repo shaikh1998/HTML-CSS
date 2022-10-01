@@ -1,0 +1,46 @@
+.parent{
+    background-color: slategrey;
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+}
+.child{
+    width: 23%;
+    height: 400px;
+    background-color: seagreen;
+    margin: 5px;
+   
+}
+.secondparent{
+    background-color: darkcyan;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* align-content: start; */
+    /* align-content: space-between; */
+    align-content: space-around;
+
+}
+.common{
+    height: 300px;
+    width: 30%;
+    background-color: blue;
+    margin: 5px;
+}
+.target{
+    height: auto;
+    align-self: stretch;
+    /* align-self: baseline; */
+}

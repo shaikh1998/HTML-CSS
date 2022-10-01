@@ -1,0 +1,24 @@
+.parent{
+    background-color: violet;
+    width: 400px;
+    height: 400px;
+    border: 25px black  dotted;
+    padding: 50px;
+    opacity: 1;
+    background-image: url(../Day7/nature.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-position: right; */
+    /* background-position: top bottom; */
+    /* background-position: center; */
+    /* background-position: top right; */
+    /* background-position: top center; */
+    /* background-attachment: fixed; */
+    /* background-origin: content-box; */
+    /* background-clip: content-box; */
+}
+.dummy{
+    width: 600px;height: 1200px;
+    background-color: navy;
+}

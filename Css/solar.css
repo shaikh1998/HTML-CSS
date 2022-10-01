@@ -1,0 +1,13 @@
+.galaxy{
+    height: 800px;
+    width: 100%;
+    background-image: url(./Day7/gal.jpg);
+    position: relative;
+}
+.sun{
+    position: absolute;
+    left: 40%;
+    
+   
+   
+}

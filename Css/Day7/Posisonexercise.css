@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+.parent{
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    left: 40%;
+    top: 200px;
+}
+.blankDiv{
+    height: 40%;
+    background-color: black;
+    box-shadow: -3px -3px 3px red;
+}
+.content{
+    height: 60%;
+    padding: 0px 10% 0px 10%;
+    box-shadow: 5px 5px 3px;
+}
+.name{
+    font-size: 25px;
+    text-align: center;
+    color: aqua;
+    height: 25%;
+}
+
+.title{
+    font-size: 22px;
+    text-align: center;
+    color: burlywood;
+    height: 25%;
+    margin-top: ;
+}
+.disc{
+    font-size: 20px;
+    text-indent: 40px;
+    /* text-align: center; */
+    color: blueviolet;
+    position: relative;
+    top: 30px;
+}
+.profile{
+    position: relative;
+    bottom: 40%;
+    left: 25%;
+   
+
+   
+}

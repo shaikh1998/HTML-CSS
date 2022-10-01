@@ -1,0 +1,33 @@
+p::first-line{
+    color: red;
+}
+p{
+    color: blue;
+}
+p::first-letter{
+    font-size: 50px;
+    background-color:aqua;
+    font-style: italic;
+} 
+p::before{
+    content: "Hello";
+    background-color: yellow;
+    color: black;
+    font-family: cursive;
+    font-size: 50px;
+}
+p::after{
+    content: "bye";
+    background-color: brown;
+    font-size: 100px;
+    font-style: italic;
+    font-family: fantasy;
+
+}
+p::selection{
+    color: darkblue;
+    background-color: yellowgreen;
+}
+.abc ::marker{
+    color: blue;
+}

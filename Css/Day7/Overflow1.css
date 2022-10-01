@@ -1,0 +1,6 @@
+.common{
+    background-color: red;
+    height: 100px;
+    width: 900px;
+    overflow: auto;
+}
